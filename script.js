@@ -1,7 +1,7 @@
 var map = L.map('map').setView([41.8781, -87.6298], 10);
 
   // load a tile layer
-  L.tileLayer('https://a.tile.stamen.com/toner/{z}/{x}/{y}.png',
+  L.tileLayer('http://a.tile.stamen.com/toner/{z}/{x}/{y}.png',
     {
       attribution: 'Tiles by <a href="http://mapc.org">MAPC</a>, Data by <a href="http://mass.gov/mgis">MassGIS</a>',
       maxZoom: 17
